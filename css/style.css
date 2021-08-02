@@ -1,0 +1,460 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.extraInfo {
+  background: #1cd1b0;
+  padding-left: 15px;
+}
+header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.title {
+  background: #00669f;
+  box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+  padding: 15px;
+}
+
+.title h1 {
+  font-size: 21px;
+  color: white;
+  text-align: left;
+  padding: 0;
+  font-style: normal;
+  font-weight: normal;
+  margin-left: 60px;
+}
+
+img {
+  position: absolute;
+  width: 53px;
+  top: 7px;
+}
+
+/* BODY */
+
+.container {
+  position: relative;
+  height: auto;
+  margin: 9% auto;
+  max-width: 500px;
+  width: 100%;
+}
+
+.titleBody {
+  color: #333333;
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 30px 30px 30px 0;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+}
+
+::placeholder {
+  color: black 50%;
+}
+
+select::placeholder {
+  color: black 50%;
+}
+
+.inputForm {
+  border: 1.53407px solid #000000;
+}
+
+.btn {
+  position: relative;
+}
+
+button {
+  font-family: "Karla", sans-serif;
+  font-size: 15px;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  border-radius: 23.011px;
+  width: 242px;
+  margin-top: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.reset {
+  background: #888888;
+  color: white;
+  margin-right: 10px;
+}
+
+.reset a {
+  color: #fff;
+}
+.enter {
+  background: #1cd1b0;
+}
+.login {
+  width: 100%;
+}
+
+.link-singin {
+  text-align: center;
+  margin-top: 25px;
+}
+a {
+  color: #00669f;
+  text-decoration: none;
+}
+
+/* Cards Page styles */
+/* CardsPage.html*/
+nav {
+  width: 100%;
+  background: #070606;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #001d2d;
+}
+
+li {
+  display: inline;
+  float: right;
+}
+li a {
+  display: block;
+  padding: 8px 12px;
+  color: #fff;
+}
+
+li a:hover {
+  background: #fff;
+  color: #001d2d;
+}
+
+.addButton {
+  position: relative;
+  color: #000;
+  padding: 20px 120px;
+  border-radius: 23.011px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  transition-duration: 0.4s;
+}
+
+
+.plus {
+  width: 70px;
+  height: 70px;
+  background-color: #00669f;
+  border-radius: 50px;
+  position: fixed;
+  color: white;
+  z-index: 3;
+  right: 50px;
+  top: 50%;
+  cursor: pointer;
+  transition-duration: 0.6s;
+}
+
+.plus:hover{
+    background: #001D2D;
+    color: #fff;
+}
+
+.addButton span {
+  font-size: 40px;
+  position: absolute;
+  left: 35%;
+  top: 15%;
+}
+
+.cards-heroes {
+  display: inline-block;
+}
+.card {
+  position: relative;
+  background-color: #f3f3f3;
+  border-radius: 20px 20px 0 0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: 0 30px;
+  margin-bottom: 50px;
+  max-width: 350px;
+  width: 100%;
+  height: auto;
+}
+.fa-heart {
+  color: tomato;
+  font-size: 2em;
+  left: 20px;
+  position: absolute;
+  top: 20px;
+  z-index: 3;
+}
+
+.imgContentHeroe {
+  border-radius: 50%;
+  height: 100px;
+  left: 120px;
+  position: absolute;
+  top: 117px;
+  width: 100px;
+  z-index: 2;
+}
+
+.imgContentBack {
+  border-radius: 20px 20px 0 0;
+  height: 170px;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+.back {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.imgheroe1 {
+  background-image: url("../img/batman.jpg");
+}
+.imgBcgheroe1 {
+  background-image: url("../img/bg-batman.jpg");
+}
+
+.imgheroe2 {
+  background-image: url("../img/wonderw.jpg");
+}
+.imgBcgheroe2 {
+  background-image: url("../img/bg-wonderw.jpg");
+}
+
+.imgheroe3 {
+  background-image: url("../img/superman.jpg");
+}
+.imgBcgheroe3 {
+  background-image: url("../img/bg-superman.jpg");
+}
+
+.card-body {
+  padding: 20px 40px;
+  margin: 35px 0 0 0;
+  position: relative;
+  height: auto;
+}
+
+.card-title {
+  text-align: center;
+  padding: 10px;
+}
+
+p {
+  text-align: justify;
+  font-size: 14px;
+}
+
+.button {
+  margin: 30px 15px 10px 50px;
+  padding: 20px;
+}
+.seeMore {
+  background-color: #00669f;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  transition-duration: 0.6s;
+}
+
+.seeMore:hover{
+    background: #001D2D;
+    color: #fff;
+}
+
+/* ADD SUPER HERO STYLE */
+/** addSuper.html**/
+
+.containerFormAdd {
+  background: #00669f;
+  max-width: 60%;
+  height: auto;
+  padding: 20px 0px 50px 0;
+  margin: 30px auto;
+  box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.3);
+  border-radius: 49.0901px;
+}
+.header-form {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fbfffd;
+}
+.header-form p {
+  text-align: center;
+  margin: 10px 10px;
+}
+
+.column1 {
+  display: inline-block;
+  width: 35%;
+  margin: 7%;
+  vertical-align: text-top;
+}
+
+.column1 label {
+  color: #fff;
+}
+
+.formAddLabel {
+  border: 1.53407px solid rgba(0, 0, 0, 0.1);
+  border-radius: 15.3407px;
+}
+
+textarea {
+  resize: none;
+  width: 100%;
+  height: 300px;
+}
+
+select,
+input[type="date"] {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+#myfile{
+    padding: 0;
+}
+
+.containerCheckbox {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 14px;
+}
+
+/* Hide the browser's default checkbox */
+.containerCheckbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.containerCheckbox:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.containerCheckbox input:checked ~ .checkmark {
+  background-color: #1cd1b0;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.containerCheckbox input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.containerCheckbox .checkmark:after {
+  left: 7px;
+  top: 3px;
+  width: 4px;
+  height: 9px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.line {
+  border-bottom: 3px solid #cccccc;
+  margin: 24px 0;
+}
+.checkmarkRadio {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+.checkmarkRadio:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.containerCheckbox .checkmarkRadio:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+.containerCheckbox:hover input ~ .checkmarkRadio {
+  background-color: #ccc;
+}
+.containerCheckbox input:checked ~ .checkmarkRadio {
+  background-color: #1cd1b0;
+}
+
+.add {
+    background: #1cd1b0;
+    left: 35%;
+    transition-duration: 0.6s;
+}
+.add:hover{
+    background: #001D2D;
+    color: #fff;
+}
+
+/* Footer */
+footer {
+  position: relative;
+  background-color: #00669f;
+  color: white;
+  height: 70px;
+  margin-top: 5%;
+}
+
+footer p {
+  text-align: center;
+  padding: 25px;
+}
