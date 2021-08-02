@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="./css/style.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+        <script defer src="/your-path-to-fontawesome/js/brands.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/solid.css"
+            integrity="sha384-LA8Ug4T/nhVkyhrSmSirsoAo9iDrBk8E7U80aSPeD+w3vO8PzOJIS6agGcbIwwX0" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/fontawesome.css"
+            integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+        <title>Super Héroes</title>
+    </head>
+</head>
+
+<body>
+    <div class="extraInfo">
+        20% de descuento en todos los productos!
+    </div>
+    <header>
+        <div class="title">
+            <a href="CardsPage.html"><img src="./img/ecommerce-icon.png"></a>
+            <h1>Super Heroes</h1>
+        </div>
+        <nav class="navBar">
+            <ul>
+                <li><a href="contact.html">Contacto</a></li>
+                <li><a href="signUp.html">Registrarme</a></li>
+                <li><a href="index.html">Ingresar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="containerFormAdd">
+        <div class="header-form">
+            <h1>¡Añade tu super!</h1>
+            <p>Agrega tu personaje favorito completando las opciones.</p>
+        </div>
+        <form action="" class="formAdd">
+            <div class="column1">
+                <label for="name">*Nombre</label>
+                <input type="text" class="formAddLabel" id="nombre" name="name">
+                <label>Fecha</label>
+                <input type="date" class="formAddLabel">
+                <textarea name="message" class="formAddLabel" placeholder="Descripción"></textarea>
+            </div>
+            <div class="column1">
+                <label for="specie">*Especie</label>
+                <select name="specie" class="formAddLabel" id="">
+                    <option value="specie">Especie</option>
+                    <option value="unknown">Desconocido</option>
+                    <option value="human">Humano</option>
+                    <option value="krypton">Krypton</option>
+                </select>
+
+                <label for="myfile">Agregar foto</label>
+                <input type="file" id="myfile" name="myfile">
+
+                <label for="title">Poderes</label><br>
+                <label class="containerCheckbox">Volar
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="containerCheckbox">SuperInteligencia
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="containerCheckbox">Vista de rayo láser
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="containerCheckbox">Billetera gorda
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+
+                <div class="line"></div>
+                <label for="title">Tipo de personaje</label>
+                <label class="containerCheckbox">Héroe / Heroina
+                    <input type="radio" checked="checked" name="radio">
+                    <span class="checkmarkRadio"></span>
+                </label>
+                <label class="containerCheckbox">Villano / Villana
+                    <input type="radio" name="radio">
+                    <span class="checkmarkRadio"></span>
+                </label>
+
+            </div>
+            <div class="addButtonDiv">
+                <a href="#" class="addButton add">Añadir</a>
+            </div>
+        </form>
+    </div>
+    <footer>
+        <p>Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+</body>
+
+</html>
